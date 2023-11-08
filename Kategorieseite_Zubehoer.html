@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>iSales | Zubehoer</title>
+    <link rel="stylesheet" type="text/css" href="./style/styles.css">
+    <script src="./script/script.js"></script>
+</head>
+<body>
+    <!-- Header-Bereich -->
+    <header class="header">
+        <div class="header-left">
+        <div class="logo">
+            <a href="Homepage.html">
+                <img src="./img/iapplesales-logo-white-transparent.png" alt="iAppleSales - Logo">
+            </a>
+        </div>
+        </div>
+
+        <div class="header-center">
+        <h1>Willkommen bei iAppleSales!</h1>
+        <nav>
+            <ul class="navigation">
+                <li><a href="Kategorieseite_IPhones.html">iPhones</a></li>
+                <li><a href="Kategorieseite_IPads.html">iPads</a></li>
+                <li><a href="Kategorieseite_IMacs.html">iMacs</a></li>
+                <li><a href="Kategorieseite_Zubehoer.html">Zubehör</a></li>
+            </ul>
+        </nav>
+        </div>
+        <div class="header-right">
+            <div class="cart">
+                <span class="cart-icon">&#128722;</span>
+                <span class="cart-count">0</span>
+            </div>
+        </div>
+
+        
+    </header>   
+	<!-- Suchfeld -->
+    <div class="search">
+        <input type="text" placeholder="Suche...">
+        <button class="-button">Suchen</button>
+    </div>
+	   <!-- Inhalt der Webseite  -->
+    <div class="content">
+        <!-- Produkt-Schaufenster -->
+        <div class="product-container">
+            <!-- Linkes Produkt -->
+            <div class="product">
+                <div class="product-picture">
+                    <img src="./img/AirPods.png" alt="Apple AirPods" class="product-image">
+                </div>
+                <div class="product-title">
+                    <h2>Apple AirPods </h2>
+                </div>
+                <div class="product-text">
+                    <p>APPLE AirPods mit Ladecase (2. Generation), In-ear Kopfhörer Bluetooth Weiß</p>
+                    <a href="Produktdetail_AirPods.html">
+                    <button class="add-to-cart-button" >zum Produkt</button>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Produkt in der Mitte -->
+            <div class="product">
+                <div class="product-picture">
+                    <img src="./img/Pencil.png" alt="Apple Pencil" class="product-image">
+                </div>
+                <div class="product-title">
+                    <h2>Apple Pencil</h2>
+                </div>
+                <div class="product-text">
+                    <p>APPLE Pencil (2.Generation) Eingabestift Weiß</p>
+                    <a href="Produktdetail_Pencil.html">
+                    <button class="add-to-cart-button">zum Produkt</button>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Rechtes Produkt -->
+            <div class="product">
+                <div class="product-picture">
+                    <img src="./img/Watch.png" alt="Apple Watch" class="product-image">
+                </div>
+                <div class="product-title">
+                    <h2>Apple Watch</h2>
+                </div>
+                <div class="product-text">
+                    <p>Apple Watch SE (2022), GPS, 40mm Smartwatch, Aluminiumgehäuse, Polarstern</p>
+                    <a href="Produktdetail_Watch.html">
+                    <button class="add-to-cart-button">zum Produkt</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Popup für den Warenkorb -->
+    <div class="popup" id="cart-popup">
+        <div class="popup-content">
+            <h2>Warenkorb</h2>
+            <ul id="cart-items">
+                <!-- Hier werden die ausgewählten Artikel angezeigt -->
+            </ul>
+            <p id="cart-total">Gesamtpreis: €0</p>
+            <button class="add-to-cart-button" id="close-popup">Schließen</button>
+            <button class="add-to-cart-button" id="checkout-button">Zum Warenkorb</button>
+        </div>
+    </div>
+
+    <!-- Footer-Bereich -->
+    <footer class="footer">
+        &copy; 2023 iAppleSales - Alle Rechte vorbehalten | 
+        <a href="About_Us.html">Über Uns</a> | 
+        <a href="agb.html">AGB</a> | 
+        <a href="datenschutz.html">Datenschutz</a> | 
+        <a href="impressum.html">Impressum</a>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>iSales | Homepage</title>
+    <link rel="stylesheet" type="text/css" href="./style/styles.css">
+    <script src="./script/script.js"></script>
+</head>
+<body>
+    <!-- Header-Bereich -->
+    <header class="header">
+        <div class="header-left">
+            <div class="logo">
+                <a href="Homepage.html">
+                    <img src="./img/iapplesales-logo-white-transparent.png" alt="iAppleSales - Logo">
+                </a>
+            </div>
+        </div>
+
+        <div class="header-center">
+            <h1> Willkommen bei IAppleSales! </h1>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="Kategorieseite_IPhones.html">iPhones</a></li>
+                    <li><a href="Kategorieseite_IPads.html">iPads</a></li>
+                    <li><a href="Kategorieseite_IMacs.html">iMacs</a></li>
+                    <li><a href="Kategorieseite_Zubehoer.html">Zubehör</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-right">
+            <div class="cart">
+                <span class="cart-icon">&#128722;</span>
+                <span class="cart-count">0</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Suchfeld -->
+    <div class="search">
+        <input type="text" placeholder="Suche...">
+        <button class="search-button">Suchen</button>
+    </div>
+
+    <!-- Inhalt der Webseite  -->
+    <div class="content">
+        <!-- Produkt-Schaufenster -->
+        <div class="product-container">
+            <!-- Linkes Produkt -->
+            <div class="product">
+                <div class="product-picture">
+                    <img src="./img/iPhone_15.png" alt="iPhone 15" class="product-image">
+                </div>
+                <div class="product-title">
+                    <h2>iPhone 15</h2>
+                </div>
+                <div class="product-text">
+                    <p>128GB, Verbesserte Kamera, OLED Display, A15 Bionic Chip</p>
+                    <a href="Produktdetail_iPhone15.html">
+                        <button class="add-to-cart-button">zum Produkt</button>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Produkt in der Mitte -->
+            <div class="product">
+                <div class="product-picture">
+                    <img src="./img/iPad_Pro.png" alt="iPad Pro" class="product-image">
+                </div>
+                <div class="product-title">
+                    <h2>iPad Pro</h2>
+                </div>
+                <div class="product-text">
+                    <p>12.9", 2018 3. Gen, 64GB, 6GB Ram, Space Grau</p>
+                    <a href="Produktdetail_iPad-pro.html">
+                        <button class="add-to-cart-button">zum Produkt</button>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Rechtes Produkt -->
+            <div class="product">
+                <div class="product-picture">
+                    <img src="./img/iMac_big.png" alt="iMac 27" class="product-image">
+                </div>
+                <div class="product-title">
+                    <h2>iMac 27"</h2>
+                </div>
+                <div class="product-text">
+                    <p>2020 Model, 5k Retina Display, 32GB Ram, 512GB SSD, M1 Chip</p>
+                    <a href="Produktdetail_iMac-big.html">
+                        <button class="add-to-cart-button">zum Produkt</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Popup für den Warenkorb -->
+    <div class="popup" id="cart-popup">
+        <div class="popup-content">
+            <h2>Warenkorb</h2>
+            <ul id="cart-items">
+                <!-- Hier werden die ausgewählten Artikel angezeigt -->
+            </ul>
+            <p id="cart-total">Gesamtpreis: €0</p>
+            <button class="add-to-cart-button" id="close-popup">Schließen</button>
+            <button class="add-to-cart-button" id="checkout-button">Zum Warenkorb</button>
+        </div>
+    </div>
+
+    <!-- Footer-Bereich -->
+    <footer class="footer">
+        &copy; 2023 iAppleSales - Alle Rechte vorbehalten | 
+        <a href="About_Us.html">Über Uns</a> | 
+        <a href="agb.html">AGB</a> | 
+        <a href="datenschutz.html">Datenschutz</a> | 
+        <a href="impressum.html">Impressum</a>
+    </footer>
+</body>
+</html>

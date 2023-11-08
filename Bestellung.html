@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>iSales | Bestellung</title>
+    <link rel="stylesheet" type="text/css" href="./style/styles.css">
+    <script src="./script/script.js"></script>
+</head>
+<body>
+    <!-- Header-Bereich -->
+    <header class="header">
+        <div class="header-left">
+            <div class="logo">
+                <a href="Homepage.html">
+                    <img src="./img/iapplesales-logo-white-transparent.png" alt="iAppleSales - Logo">
+                </a>
+            </div>
+        </div>
+
+        <div class="header-center">
+            <h1> Willkommen bei IAppleSales! </h1>
+            <nav>
+                <ul class="navigation">
+					<li><a href="Kategorieseite_IPhones.html">iPhones</a></li>
+					<li><a href="Kategorieseite_IPads.html">iPads</a></li>
+					<li><a href="Kategorieseite_IMacs.html">iMacs</a></li>
+					<li><a href="Kategorieseite_Zubehoer.html">Zubehör</a></li>
+            </ul>
+            </nav>
+        </div>
+        <div class="header-right">
+            <div class="cart">
+                <span class="cart-icon">&#128722;</span>
+                <span class="cart-count">0</span>
+            </div>
+        </div>
+    </header>
+
+
+
+    <!-- Inhalt der Bestellseite -->
+    <div class="container">
+        <div class="right">
+            <h1>Bestellübersicht</h1>
+            <ul id="selected-items">
+                <!-- Hier werden die ausgewählten Artikel angezeigt -->
+            </ul>
+            <p id="total-price">Gesamtpreis: €0</p>
+        </div>
+            <!-- Bestellformular -->
+        <div class="left">
+            <form id="order-form" action="Bestellabschluss.html">
+                <h2>Bestellformular</h2>
+                <div class="form-group">
+                    <label for="anrede">Anrede:</label>
+                    <select id="anrede" name="anrede">
+                        <option value="Herr">Herr</option>
+                        <option value="Frau">Frau</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="vorname">Vorname:</label>
+                    <input type="text" id="vorname" name="vorname" required>
+                </div>
+                <div class="form-group">
+                    <label for="nachname">Nachname:</label>
+                    <input type="text" id="nachname" name="nachname" required>
+                </div>
+                <div class="form-group">
+                    <label for="firma">Firma (optional):</label>
+                    <input type="text" id="firma" name="firma">
+                </div>
+                <div class="form-group">
+                    <label for="ust-id">UST-ID (optional):</label>
+                    <input type="text" id="ust-id" name="ust-id">
+                </div>
+                <div class="form-group">
+                    <label for="email">E-Mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="email-confirm">E-Mail bestätigen:</label>
+                    <input type="email" id="email-confirm" name="email-confirm" required>
+                </div>
+                <div class="form-group">
+                    <label for="strasse-nr">Straße und Nr.:</label>
+                    <input type="text" id="strasse-nr" name="strasse-nr" required>
+                </div>
+                <div class="form-group">
+                    <label for="plz">PLZ:</label>
+                    <input type="text" id="plz" name="plz" required>
+                </div>
+                <div class="form-group">
+                    <label for="land">Land:</label>
+                    <input type="text" id="land" name="land" required>
+                </div>
+                <div class="form-group">
+                    <label for="ort">Ort:</label>
+                    <input type="text" id="ort" name="ort" required>
+                </div>
+                <div class="form-group">
+                    <label class="custom-checkbox">Ich habe die <a href="agb.html">AGB</a> und <a href="datenschutz.html">Datenschutzerklärung</a> gelesen und akzeptiert:
+                    <input type="checkbox" id="agb-datenschutz" name="agb-datenschutz" required>
+                    <span class="checkmark"></span>
+                    </label>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="add-to-cart-button">Bestellung abschicken</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+
+    <!-- Footer-Bereich -->
+    <footer class="footer">
+        &copy; 2023 iAppleSales - Alle Rechte vorbehalten | 
+        <a href="About_Us.html">Über Uns</a> | 
+        <a href="AGB.html">AGB</a> | 
+        <a href="datenschutz.html">Datenschutz</a> | 
+        <a href="impressum.html">Impressum</a>
+    </footer>
+
+</script>
+</body>
+</html>
